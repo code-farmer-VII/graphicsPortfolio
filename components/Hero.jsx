@@ -24,7 +24,7 @@ export default function Hero() {
               transition={{ duration: 0.8 }}
               className="text-4xl lg:text-5xl font-bold mb-4"
             >
-              Hello, I'm <span className="text-yellow-400">Temesgen Gonfa</span>
+              Hello, I&apos;m <span className="text-yellow-400">Temesgen Gonfa</span>
             </motion.h1>
 
             <motion.h2

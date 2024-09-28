@@ -8,7 +8,7 @@ export default function Contact() {
         {/* Left Section */}
         <div className="lg:w-1/2 mb-10 lg:mb-0 lg:pr-8">
           <h2 className="text-3xl font-bold text-center mb-8">Get in Touch</h2>
-          <p className="text-center mb-12">I'd love to hear from you! Please fill out the form below.</p>
+          <p className="text-center mb-12">I&apos;d love to hear from you! Please fill out the form below.</p>
           {/* Contact Information */}
           <div className="mb-6">
             <h3 className="text-xl font-semibold">Contact Information</h3>
