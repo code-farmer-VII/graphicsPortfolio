@@ -83,7 +83,7 @@ export const PortfolioSection = ({ data, title }) => {
                     src={currentImg}
                     alt={portfolio.title}
                     fill
-                    className='object-cover object-center transition-transform duration-500'
+                    className=' object-center transition-transform duration-500 object-contain'
                   />
                   <div className='bg-black bg-opacity-10 backdrop-blur-[1px] absolute top-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center'>
                     <div className='w-16 h-16 flex items-center justify-center bg-peach-700 border border-peach-400 p-3 text-gray-100 rounded-lg'>
@@ -123,7 +123,7 @@ export const PortfolioSection = ({ data, title }) => {
 
       <div className="flex flex-col lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 py-12 justify-center">
         <Link
-          href="/gallery" // Fixed the spelling of "gallery"
+          href="/gallary" // Fixed the spelling of "gallery"
           className="border-2 hover:border-white px-6 py-3 border-yellow-400 rounded-full font-medium transition hover:bg-yellow-400 transform ease-in-out duration-500 hover:text-black"
         >
           Show More

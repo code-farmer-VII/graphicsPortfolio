@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Sun, Moon } from 'lucide-react';
+import Image from 'next/image';
+import logo from "@/assets/logo.jpg"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,7 +46,14 @@ const Navbar = () => {
     <nav className="navBar shadow fixed top-0 left-0 right-0 border-b border-white z-50">
       <div className="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
         <div className="text-2xl font-bold">
-          <Link href="#" className="hover:text-purple-600">YourLogo</Link>
+          <Link href="/" className="hover:text-purple-600">
+          <Image 
+          src={logo}
+          width={100}
+          height={100}
+          className='w-[50%] h-[50%] object-contain'
+          />
+          </Link>
         </div>
         <div className="hidden md:flex space-x-8">
           {links.map(({ href, label }) => (

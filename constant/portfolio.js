@@ -8,21 +8,32 @@ import newYear from "@/assets/image/new-year.jpg"
 import Nike from "@/assets/image/Nike Shose.jpg"
 import SPACE from "@/assets/image/SPACE VII.jpg"
 import SPACEVII from "@/assets/image/SPACE X 1.jpg"
+import yoni from "@/assets/image/yoni zema.png"
+import BaseBall from "@/assets/image/BASE BALL.png"
+import America from "@/assets/image/AMERICAN FOOTBALL.png"
 
 export const portfolios = [
     {
       id: 1,
-      title: "Z - Aura Perfume Website",
+      title: "Adobe Photoshop",
       link: "#",
       images: [
         haile,
         banner,
         Formula,
       ],
+      id: 1,
+      title: "Adobe Photoshop",
+      link: "#",
+      images: [
+        yoni,
+        BaseBall,
+        America,
+      ],
     },
     {
       id: 2,
-      title: "Forhelp Charity Website",
+      title: "Adobe Illustrator",
       link: "#",
       images: [
         jucebanner,
@@ -32,7 +43,7 @@ export const portfolios = [
     },
     {
       id: 3,
-      title: "Skill Bridge Website",
+      title: "Canva",
       link: "#",
       images: [
         Nike,
@@ -42,7 +53,7 @@ export const portfolios = [
     },
     {
       id: 4,
-      title: "Current Vandi Website",
+      title: "Adobe Phtoshop",
       link: "#",
       images: [
         image,
@@ -52,7 +63,7 @@ export const portfolios = [
     },
     {
       id: 5,
-      title: "Fit Fusion Gym Website",
+      title: "Canva",
       link: "#",
       images: [
         image,
@@ -62,7 +73,7 @@ export const portfolios = [
     },
     {
       id: 6,
-      title: "DX Digital Agency Website",
+      title: "Adobe Ilustration",
       link: "#",
       images: [
         image,
@@ -72,7 +83,7 @@ export const portfolios = [
     },
     {
       id: 7,
-      title: "Little Learners Website",
+      title: "Canva",
       link: "#",
       images: [
         image,
@@ -82,7 +93,7 @@ export const portfolios = [
     },
     {
       id: 8,
-      title: "StreamVibe Website",
+      title: "Adobe Ilustration",
       link: "#",
       images: [
         image,
@@ -92,7 +103,7 @@ export const portfolios = [
     },
     {
       id: 9,
-      title: "YourBank Website",
+      title: "Adobe Photosho",
       link: "#",
       images: [
         image,

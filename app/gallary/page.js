@@ -10,17 +10,23 @@ import newYear from "@/assets/image/new-year.jpg";
 import Nike from "@/assets/image/Nike Shose.jpg";
 import SPACE from "@/assets/image/SPACE VII.jpg";
 import SPACEVII from "@/assets/image/SPACE X 1.jpg";
+import yoni from "@/assets/image/yoni zema.png"
+import BaseBall from "@/assets/image/BASE BALL.png"
+import America from "@/assets/image/AMERICAN FOOTBALL.png"
 
 const images = [
+  yoni,
+  BaseBall,
+  America,
   haile,
-  banner,
   Formula,
   jucebanner,
   NBA,
-  newYear,
-  Nike,
   SPACE,
   SPACEVII,
+  newYear,
+  Nike,
+  banner,
 ];
 
 const ImageGallery = () => {
