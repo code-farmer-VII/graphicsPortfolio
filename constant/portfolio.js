@@ -1,16 +1,17 @@
 import image from "@/assets/LeBronJames5.jpg"
-import haile from "@/assets/image/EnduranceHaileGebrselassie.jpg"
-import banner from "@/assets/image/banner.jpg"
-import Formula from "@/assets/image/Formula 1.jpg"
-import jucebanner from "@/assets/image/jucebanner.jpg"
-import NBA from "@/assets/image/NBA basketball.jpg"
+import haile from "@/assets/image/EnduranceHaileGebrselassie.png"
+import banner from "@/assets/image/banner.png"
+import Formula from "@/assets/image/Formula 1.png"
+import jucebanner from "@/assets/image/jucebanner.png"
+import NBA from "@/assets/image/NBA basketball.png"
 import newYear from "@/assets/image/new-year.jpg"
-import Nike from "@/assets/image/Nike Shose.jpg"
-import SPACE from "@/assets/image/SPACE VII.jpg"
-import SPACEVII from "@/assets/image/SPACE X 1.jpg"
+import Nike from "@/assets/image/Nike Shose.png"
+import SPACE from "@/assets/image/SPACE VII.png"
+import SPACEVII from "@/assets/image/SPACE X 1.png"
 import yoni from "@/assets/image/yoni zema.png"
 import BaseBall from "@/assets/image/BASE BALL.png"
 import America from "@/assets/image/AMERICAN FOOTBALL.png"
+import CITY from "@/assets/image/CITY.png"
 
 export const portfolios = [
     {
@@ -19,18 +20,30 @@ export const portfolios = [
       link: "#",
       images: [
         haile,
-        banner,
+        BaseBall,
         Formula,
       ],
+    }
+    ,{ 
       id: 1,
       title: "Adobe Photoshop",
       link: "#",
       images: [
-        yoni,
+        CITY,
         BaseBall,
         America,
-      ],
+      ]
     },
+{
+  id: 1,
+  title: "Adobe Photoshop",
+  link: "#",
+  images: [
+    yoni,
+    banner,
+    America,
+  ],
+},
     {
       id: 2,
       title: "Adobe Illustrator",

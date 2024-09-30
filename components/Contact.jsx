@@ -16,13 +16,13 @@ export default function Contact() {
             <p className="mb-2">Email: <a href="mailto:temesgengonfa72127@example.com" className="text-yellow-400">temesgengonfa72127@example.com</a></p>
           </div>
           <div className="flex justify-center space-x-4 mb-8">
-            <a href="https://telegram.me/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/I_have_user_name" target="_blank" rel="noopener noreferrer">
               <Send className="text-2xl text-blue-500 hover:text-blue-700" />
             </a>
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/jackson121672373/?__pwa=1#" target="_blank" rel="noopener noreferrer">
               <Instagram className="text-2xl text-pink-500 hover:text-pink-700" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/posts/temesgen-gonfa-125a25271_opentowork-activity-7180249648136126464-5uv0?utm_source=share&utm_medium=member_android" target="_blank" rel="noopener noreferrer">
               <Linkedin className="text-2xl text-blue-700 hover:text-blue-900" />
             </a>
           </div>

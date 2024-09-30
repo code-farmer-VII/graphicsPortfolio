@@ -8,7 +8,7 @@ function Footer() {
 
 
     {/* {copy right} */}
-    <p className='mt-8 text-center text-sm'>copyright © {new Date().getFullYear()} Temesgen Gonfa. All right reserverd  
+    <p className='mt-8 text-center text-sm'>copyright  {new Date().getFullYear()} Temesgen Gonfa. All right reserverd  
         
     </p>
     </footer>

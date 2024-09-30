@@ -2,8 +2,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import LeBron from "@/assets/LeBronJames5.jpg"; // Make sure this is relevant to your services
 import { Services } from "@/constant/service";
+import LeBron from "@/assets/portfolio-1.png";
+
 
 const textVariant = {
   hidden: { opacity: 0, y: 20 },

@@ -59,10 +59,10 @@ export default function Hero() {
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                href="#contact"
+                href="https://www.canva.com/design/DAGSRcyPZR8/aU6uw8MEtJ7JpFbX4Q6l9g/view?utm_content=DAGSRcyPZR8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                 className="border-2 border-white px-6 py-3 rounded-full font-medium transition duration-300"
               >
-                Download My CV
+                Show my cv
               </motion.a>
             </div>
           </motion.div>
