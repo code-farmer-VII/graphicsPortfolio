@@ -30,7 +30,7 @@ const ExperienceCard = ({ service, isOdd }) => (
     whileInView="visible"
   >
     {/* Content */}
-    <div className={`card-milestone flex flex-col justify-end bg-[#1d1836] md:w-1/2 text-white px-6 py-4 rounded-lg shadow-lg transition-transform transform hover:-translate-y-2 ${isOdd ? "md:mr-0" : "md:ml-0"} mb-2`}>
+    <div className={`card-milestone flex flex-col justify-end bg-[#1d1836] md:w-1/2 text-white px-6 py-4 rounded-lg shadow-lg transition-transform transform hover:-translate-y-2 ${isOdd ? "md:mr-0" : "md:ml-0"} mb-2 transition-all ease-in-out duration-700`}>
       <motion.h3
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
