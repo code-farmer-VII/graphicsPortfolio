@@ -13,8 +13,14 @@ import SPACEVII from "@/assets/image/SPACE X 1.png";
 import yoni from "@/assets/image/yoni zema.png"
 import BaseBall from "@/assets/image/BASE BALL.png"
 import America from "@/assets/image/AMERICAN FOOTBALL.png"
+import Logos from "@/assets/image/LOGO-1.png"
+import Temesgen from "@/assets/image/TEMESGEN BANK.png"
+import Water from "@/assets/image/WATER.png"
 
 const images = [
+  Logos,
+  Temesgen,
+  Water,
   yoni,
   BaseBall,
   America,
