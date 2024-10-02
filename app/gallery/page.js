@@ -16,6 +16,7 @@ import America from "@/assets/image/AMERICAN FOOTBALL.png"
 import Logos from "@/assets/image/LOGO-1.png"
 import Temesgen from "@/assets/image/TEMESGEN BANK.png"
 import Water from "@/assets/image/WATER.png"
+import { motion } from 'framer-motion';
 
 const images = [
   Logos,
@@ -63,7 +64,11 @@ const ImageGallery = () => {
     <div className="relative" onKeyDown={handleKeyDown} tabIndex={0}>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
         {images.map((src, index) => (
-          <div key={index} className="flex items-center justify-center cursor-pointer">
+          <motion.div 
+          initial={{ opacity: 0, scale: 0.2, y: 50  }}
+          whileInView={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          key={index} className="flex items-center justify-center cursor-pointer">
             <Image
               src={src}
               alt={`Image ${index + 1}`}
@@ -74,7 +79,7 @@ const ImageGallery = () => {
               onContextMenu={preventContextMenu}
               onDragStart={(e) => e.preventDefault()}
             />
-          </div>
+          </motion.div>
         ))}
       </div>
 
