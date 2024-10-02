@@ -123,7 +123,7 @@ export const PortfolioSection = ({ data, title }) => {
 
       <div className="flex flex-col lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 py-12 justify-center">
         <Link
-          href="/gallary" // Fixed the spelling of "gallery"
+          href="/gallery" // Fixed the spelling of "gallery"
           className="border-2 hover:border-white px-6 py-3 border-yellow-400 rounded-full font-medium transition hover:bg-yellow-400 transform ease-in-out duration-500 hover:text-black"
         >
           Show More
