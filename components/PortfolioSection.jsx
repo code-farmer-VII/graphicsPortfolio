@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 import { useWindowSize } from '@/hooks/useWindowSize'; 
 import { ChevronLeft, ChevronRight } from 'lucide-react'; 
 import React, { useEffect, useRef, useState } from 'react';
@@ -76,19 +76,25 @@ export const PortfolioSection = ({ data, title }) => {
         >
           {data.map((portfolio, index) => (
             <SwiperSlide key={index}>
-              <div className='box'>
-                <h4 className='mb-5 text-2xl font-bold '>{portfolio.title}</h4>
+              <motion.div
+                className='box'
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.9 }}
+                transition={{ duration: 0.3 }}
+              >
+                <h4 className='mb-5 text-2xl font-bold'>{portfolio.title}</h4>
                 <div className='relative w-full h-80 rounded-lg overflow-hidden group cursor-pointer mb-5'>
                   <Image
                     src={currentImg}
                     alt={portfolio.title}
                     fill
-                    className=' object-center transition-transform duration-500 object-contain'
+                    className='object-center transition-transform duration-500 object-contain'
                   />
                   <div className='bg-black bg-opacity-10 backdrop-blur-[1px] absolute top-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center'>
                     <div className='w-16 h-16 flex items-center justify-center bg-peach-700 border border-peach-400 p-3 text-gray-100 rounded-lg'>
                       <ArrowUpRight 
-                      onClick={() => openModal(currentImg)} // Use currentImg here
+                        onClick={() => openModal(currentImg)}
                       />
                     </div>
                   </div>
@@ -115,7 +121,7 @@ export const PortfolioSection = ({ data, title }) => {
                     </div>
                   ))}
                 </div>
-              </div>
+              </motion.div>
             </SwiperSlide>
           ))}
         </Swiper>
@@ -123,7 +129,7 @@ export const PortfolioSection = ({ data, title }) => {
 
       <div className="flex flex-col lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 py-12 justify-center">
         <Link
-          href="/gallery" // Fixed the spelling of "gallery"
+          href="/gallery"
           className="border-2 hover:border-white px-6 py-3 border-yellow-400 rounded-full font-medium transition hover:bg-yellow-400 transform ease-in-out duration-500 hover:text-black"
         >
           Show More
@@ -131,7 +137,13 @@ export const PortfolioSection = ({ data, title }) => {
       </div>
 
       {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50" onClick={closeModal}>
+        <motion.div 
+          className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          onClick={closeModal}
+        >
           <div className="relative max-w-lg w-full">
             <Image
               src={currentImage}
@@ -149,7 +161,7 @@ export const PortfolioSection = ({ data, title }) => {
               &times;
             </button>
           </div>
-        </div>
+        </motion.div>
       )}
     </section>
   );

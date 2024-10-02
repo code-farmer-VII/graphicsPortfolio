@@ -14,13 +14,13 @@ export default function Hero() {
           {/* Left Side: Text */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             className="text-center lg:text-left mb-8 lg:mb-0 lg:w-1/2"
           >
             <motion.h1
               initial={{ opacity: 0, y: -50 }}
-              animate={{ opacity: 1, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               className="text-4xl lg:text-5xl font-bold mb-4"
             >
@@ -29,7 +29,7 @@ export default function Hero() {
 
             <motion.h2
               initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-xl lg:text-2xl font-medium mb-6"
             >
@@ -38,7 +38,7 @@ export default function Hero() {
 
             <motion.p
               initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 0.8 }}
               className="text-lg mb-8"
             >
@@ -69,8 +69,8 @@ export default function Hero() {
 
           {/* Right Side: Image */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0.2, x: 50  }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             className="lg:w-1/2 flex justify-center"
           >
