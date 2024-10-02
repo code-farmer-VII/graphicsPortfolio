@@ -75,8 +75,8 @@ export default function Contact() {
 
         {/* Right Section: Contact Form */}
         <motion.div 
-        initial={{ opacity: 0, x: 50 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         className="lg:w-1/2">
           <form action="https://formspree.io/f/xjkbnkrg" method="POST" className="max-w-lg mx-auto shadow-md rounded-lg p-8">
