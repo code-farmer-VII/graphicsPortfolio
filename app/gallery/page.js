@@ -16,9 +16,17 @@ import America from "@/assets/image/AMERICAN FOOTBALL.png"
 import Logos from "@/assets/image/LOGO-1.png"
 import Temesgen from "@/assets/image/TEMESGEN BANK.png"
 import Water from "@/assets/image/WATER.png"
+import CITY from "@/assets/image/CITY.png"
+import HOURSE from "@/assets/image/HOURSE.png"
+import REALSTATE from "@/assets/image/REALSTATE.png"
+import SHEWA from "@/assets/image/SHEWA.png"
 import { motion } from 'framer-motion';
 
 const images = [
+  CITY,
+  HOURSE,
+  REALSTATE,
+  SHEWA,
   Logos,
   Temesgen,
   Water,
