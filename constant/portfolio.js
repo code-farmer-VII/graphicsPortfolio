@@ -14,6 +14,7 @@ import America from "@/assets/image/AMERICAN FOOTBALL.png"
 import CITY from "@/assets/image/CITY.png"
 import football from "@/assets/image/american football 8.png"
 import CRISTIANO from "@/assets/image/CRISTIANO.png"
+import peapr from "@/assets/image/peapr.png"
 
 export const portfolios = [
     {
@@ -42,7 +43,7 @@ export const portfolios = [
       link: "#",
       images: [
         CITY,
-        BaseBall,
+        peapr,
         America,
       ]
     },

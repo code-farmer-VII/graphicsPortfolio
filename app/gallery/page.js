@@ -22,9 +22,11 @@ import REALSTATE from "@/assets/image/REALSTATE.png"
 import SHEWA from "@/assets/image/SHEWA.png"
 import football from "@/assets/image/american football 8.png"
 import CRISTIANO from "@/assets/image/CRISTIANO.png"
+import peapr from "@/assets/image/peapr.png"
 import { motion } from 'framer-motion';
 
 const images = [
+  peapr,
   football,
   CRISTIANO,
   CITY,
