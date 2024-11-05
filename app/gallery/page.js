@@ -20,9 +20,13 @@ import CITY from "@/assets/image/CITY.png"
 import HOURSE from "@/assets/image/HOURSE.png"
 import REALSTATE from "@/assets/image/REALSTATE.png"
 import SHEWA from "@/assets/image/SHEWA.png"
+import football from "@/assets/image/american football 8.png"
+import CRISTIANO from "@/assets/image/CRISTIANO.png"
 import { motion } from 'framer-motion';
 
 const images = [
+  football,
+  CRISTIANO,
   CITY,
   HOURSE,
   REALSTATE,

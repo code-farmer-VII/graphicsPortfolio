@@ -12,6 +12,8 @@ import yoni from "@/assets/image/yoni zema.png"
 import BaseBall from "@/assets/image/BASE BALL.png"
 import America from "@/assets/image/AMERICAN FOOTBALL.png"
 import CITY from "@/assets/image/CITY.png"
+import football from "@/assets/image/american football 8.png"
+import CRISTIANO from "@/assets/image/CRISTIANO.png"
 
 export const portfolios = [
     {
@@ -25,6 +27,16 @@ export const portfolios = [
       ],
     }
     ,{ 
+      id: 1,
+      title: "Adobe Photoshop",
+      link: "#",
+      images: [
+        football,
+        BaseBall,
+        CRISTIANO,
+      ]
+    },
+    { 
       id: 1,
       title: "Adobe Photoshop",
       link: "#",
