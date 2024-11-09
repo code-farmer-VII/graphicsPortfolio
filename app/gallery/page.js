@@ -23,9 +23,12 @@ import SHEWA from "@/assets/image/SHEWA.png"
 import football from "@/assets/image/american football 8.png"
 import CRISTIANO from "@/assets/image/CRISTIANO.png"
 import peapr from "@/assets/image/peapr.png"
+import Beauty from "@/assets/image/beauty.png"
+
 import { motion } from 'framer-motion';
 
 const images = [
+  Beauty,
   peapr,
   football,
   CRISTIANO,

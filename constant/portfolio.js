@@ -15,6 +15,7 @@ import CITY from "@/assets/image/CITY.png"
 import football from "@/assets/image/american football 8.png"
 import CRISTIANO from "@/assets/image/CRISTIANO.png"
 import peapr from "@/assets/image/peapr.png"
+import Beauty from "@/assets/image/beauty.png"
 
 export const portfolios = [
     {
@@ -25,6 +26,7 @@ export const portfolios = [
         haile,
         BaseBall,
         Formula,
+        
       ],
     }
     ,{ 
@@ -44,7 +46,7 @@ export const portfolios = [
       images: [
         CITY,
         peapr,
-        America,
+        Beauty,
       ]
     },
 {
